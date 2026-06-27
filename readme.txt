@@ -1,29 +1,11 @@
-FOREST ESCAPE
+# Forest Run
 
-Author:
-Alex Monyi
+A 2D side-scrolling forest escape game built with Pygame Zero — dodge a wolf and bat, collect coins, and make it out alive.
 
-Libraries Used:
-- Pygame Zero
-- math
-- random
-- pygame.Rect
+## How to run
 
-How to Run:
+1. Install dependencies:
+   pip install -r requirements.txt
 
-1. Open a terminal.
-2. Activate the virtual environment:
-   source .venv/bin/activate
-
-3. Run the game:
+2. Run the game:
    pgzrun game.py
-
-Controls:
-- Left Arrow: Move Left
-- Right Arrow: Move Right
-- Space: Jump
-
-Objective:
-Collect all five coins while avoiding the enemies.
-You lose when your health reaches zero.
-You win after collecting all the coins.
